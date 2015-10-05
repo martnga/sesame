@@ -28,8 +28,8 @@ public class ArtficaHome extends AppCompatActivity {
         navigationView = (NavigationView) findViewById(R.id.drawer);
         drawerLayout = (DrawerLayout) findViewById(R.id.home_drawer_layout);
 
-         drawerToggle = new ActionBarDrawerToggle(this, drawerLayout,toolbar,R.string.drawer_open, R.string.drawer_close);
-         drawerLayout.setDrawerListener(drawerToggle);
+        drawerToggle = new ActionBarDrawerToggle(this, drawerLayout,toolbar,R.string.drawer_open, R.string.drawer_close);
+        drawerLayout.setDrawerListener(drawerToggle);
         drawerToggle.syncState();
     }
 
