@@ -1,16 +1,36 @@
 package org.mansa.artfica;
 
+import android.content.res.Configuration;
+import android.support.design.widget.NavigationView;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+
 public class ArtficaHome extends AppCompatActivity {
 
+    private Toolbar toolbar;
+    private NavigationView navigationView;
+    private DrawerLayout drawerLayout;
+    ActionBarDrawerToggle drawerToggle;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_artfica_home);
+
+        toolbar =(Toolbar) findViewById(R.id.app_bar);
+        setSupportActionBar(toolbar);
+
+        navigationView = (NavigationView) findViewById(R.id.drawer);
+        drawerLayout = (DrawerLayout) findViewById(R.id.home_drawer_layout);
+
+         drawerToggle = new ActionBarDrawerToggle(this, drawerLayout,toolbar,R.string.drawer_open, R.string.drawer_close);
+         drawerLayout.setDrawerListener(drawerToggle);
+        drawerToggle.syncState();
     }
 
     @Override
@@ -33,5 +53,11 @@ public class ArtficaHome extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+        drawerToggle.onConfigurationChanged(newConfig);
     }
 }
