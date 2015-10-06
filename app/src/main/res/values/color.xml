@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
   <color name="primary">#795548</color>
   <color name="primary_dark">#5D4037</color>
   <color name="primary_light">#D7CCC8</color>
@@ -9,3 +10,19 @@
   <color name="icons">#FFFFFF</color>
   <color name="divider">#B6B6B6</color>
 </resources>
+=======
+    <color name="primaryColor">#03a9f4</color>
+    <color name="primaryDarkColor">#0288d1</color>
+    <color name="accentColor">#ff4081</color>
+    <color name="lightprimaryColor">#b3e5fc</color>
+    <color name="textIcons">#ffffff</color>
+    <color name="primaryText">#212121</color>
+    <color name="secondaryText">#727272</color>
+    <color name="dividerColor">#b6b6b6</color>
+    <color name="colorHightlight">#b6b6b6</color>
+
+
+
+
+</resources>
+>>>>>>> 5c0811997daf7c9bf18d5a460abe36eea8b3e311

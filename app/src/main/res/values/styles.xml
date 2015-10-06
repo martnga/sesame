@@ -1,6 +1,7 @@
 <resources>
 
     <!-- Base application theme. -->
+<<<<<<< HEAD
     <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/primary</item>
@@ -20,4 +21,29 @@
 
     </style>
 
+=======
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/primaryColor</item>
+
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+
+        <item name="android:colorAccent">@color/accentColor</item>
+
+
+        <item name="android:colorControlHighlight">@color/lightprimaryColor</item>
+
+        <item name="android:windowBackground">@color/textIcons</item>
+
+
+
+
+    </style>
+
+
+>>>>>>> 5c0811997daf7c9bf18d5a460abe36eea8b3e311
 </resources>

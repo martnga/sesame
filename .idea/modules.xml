@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/artfica.iml" filepath="$PROJECT_DIR$/artfica.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/Sesame.iml" filepath="$PROJECT_DIR$/Sesame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+>>>>>>> 5c0811997daf7c9bf18d5a460abe36eea8b3e311
     </modules>
   </component>
 </project>

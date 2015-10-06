@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
+<<<<<<< HEAD
     compileSdkVersion 23
     buildToolsVersion "23.0.1"
 
@@ -8,6 +9,15 @@ android {
         applicationId "org.mansa.artfica"
         minSdkVersion 21
         targetSdkVersion 23
+=======
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "org.nganga.sesame"
+        minSdkVersion 21
+        targetSdkVersion 22
+>>>>>>> 5c0811997daf7c9bf18d5a460abe36eea8b3e311
         versionCode 1
         versionName "1.0"
     }
@@ -21,6 +31,14 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
+<<<<<<< HEAD
     compile 'com.android.support:appcompat-v7:23.0.1'
     compile 'com.android.support:design:23.0.1'
+=======
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    compile 'com.android.support:recyclerview-v7:23.0.1'
+    compile 'it.neokree:MaterialTabs:0.11'
+    compile 'com.mcxiaoke.volley:library:1.0.19'
+    compile 'com.oguzdev:CircularFloatingActionMenu:1.0.2'
+>>>>>>> 5c0811997daf7c9bf18d5a460abe36eea8b3e311
 }
